@@ -1,0 +1,70 @@
+#overflow {
+  list-style-type: lower-alpha;
+  border: solid 2px red;
+  width: 50%;
+  height: 4cm;
+  overflow: scroll;
+}
+#overflow2 {
+  list-style-type: lower-roman;
+}
+.a,
+.b,
+.c,
+.d {
+  background-color: black;
+  color: greenyellow;
+  width: 50%;
+  float: left;
+  text-transform: capitalize;
+}
+.c {
+  clear: unset;
+  position: relative;
+  top: -110px;
+}
+.d {
+  margin-top: 1px;
+}
+.aa,
+.bb,
+.cc,
+.dd,
+.aaa {
+  width: 80%;
+  height: 2cm;
+  text-align: center;
+  font-size: 30px;
+  line-height: 2cm;
+  color: aliceblue;
+}
+.aaa {
+  background-color: black;
+}
+.aa {
+  background-color: red;
+  position: relative;
+  left: 40px;
+  top: -5px;
+}
+.bb {
+  background-color: blue;
+  position: absolute;
+  left: 450px;
+}
+.cc {
+  background-color: yellow;
+  color: black;
+  position: fixed;
+  top: 320px;
+}
+.dd {
+  background-color: orange;
+  margin-top: 1.6cm;
+  position: sticky;
+  top: 60px;
+}
+.position {
+  width: 50px;
+  height: 400vh;
+}
